@@ -2,16 +2,21 @@
 
 ## Overview
 
-An AI-powered workflow built using **n8n** that automatically analyzes customer feedback using Groq LLM, categorizes it into Complaints, Compliments, or Feature Requests, stores the results in Google Sheets, and sends notifications via Slack and Gmail.
+An AI-powered workflow built using **n8n** that automatically analyzes customer feedback using **Groq LLM**, categorizes it into **Complaints**, **Compliments**, or **Feature Requests**, stores the results in **Google Sheets**, and automatically sends notifications via **Slack** and **Gmail**.
+
+---
 
 ## Features
 
 - 🤖 AI-powered feedback classification using Groq LLM
-- 📝 n8n Form for collecting feedback
+- 📝 Collects customer feedback using n8n Forms
+- 🔀 Automatically categorizes feedback into Complaints, Compliments, and Feature Requests
 - 📊 Stores responses in Google Sheets
-- 📧 Sends Gmail notifications
-- 💬 Sends Slack notifications
-- 🔀 Automatically routes feedback using Switch nodes
+- 📧 Sends email notifications using Gmail
+- 💬 Sends Slack notifications for real-time updates
+- ⚡ Fully automated workflow built with n8n
+
+---
 
 ## Tech Stack
 
@@ -22,14 +27,31 @@ An AI-powered workflow built using **n8n** that automatically analyzes customer 
 - Slack
 - Docker
 
+---
+
 ## Workflow
 
-![Workflow](workflow-screenshot.png)
+![Workflow](workflow.jpg)
+
+---
 
 ## Demo Video
 
-🎥 https://www.loom.com/share/189a066382564d9ca8d4d86fddfffcbf
+🎥 **Loom Demo:**  
+https://www.loom.com/share/189a066382564d9ca8d4d86fddfffcbf
+
+---
 
 ## Workflow File
 
-The exported workflow (`FeedbackForm.json`) is included in this repository.
+The exported n8n workflow is included in this repository.
+
+**File:** `ai-feedback-workflow.json`
+
+---
+
+## Author
+
+**Ishika Vashishtha**
+
+Final Year B.Tech Computer Science Student | AI Automation & Workflow Enthusiast
