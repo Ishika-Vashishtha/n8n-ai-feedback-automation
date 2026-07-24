@@ -49,9 +49,3 @@ The exported n8n workflow is included in this repository.
 **File:** `ai-feedback-workflow.json`
 
 ---
-
-## Author
-
-**Ishika Vashishtha**
-
-Final Year B.Tech Computer Science Student | AI Automation & Workflow Enthusiast
